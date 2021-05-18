@@ -1,0 +1,27 @@
+{
+    "name": "ajgl/doctrine-orm-pgsql-functions",
+    "description": "Custom PostgreSQL functions and operators for Doctrine ORM",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio J. García Lagar",
+            "email": "aj@garcialagar.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "Ajgl\\Doctrine\\ORM\\Query\\AST\\Functions\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
