@@ -20,6 +20,7 @@ use Doctrine\ORM\Query\SqlWalker;
  * "CAST" "(" ArithmeticExpression "," StringPrimary ")".
  *
  * @copyright 2018-2020 Dayan C. Galiazzi
+ * @see https://gist.github.com/galiazzi/5e5f04f9753ba4d8a9b972c87dc2a805
  */
 class Cast extends FunctionNode
 {
