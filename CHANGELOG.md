@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Fixed
+
+- Compatibility with `doctrine/lexer:^3`
 
 ## 0.1.0 - 2021-05-18
 
